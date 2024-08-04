@@ -1,0 +1,46 @@
+body {
+    background-image: url('interior.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.29);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.game-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.icon {
+    cursor: pointer;
+    text-align: center;
+    opacity: 0.7; /* Adjust the opacity for transparency */
+    transition: opacity 0.3s; /* Smooth transition effect */
+}
+
+.icon:hover {
+    opacity: 1; /* Full opacity on hover */
+}
+
+
+.icon img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.icon p {
+    margin-top: 10px;
+}
+
